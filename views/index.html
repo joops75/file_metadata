@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Metadata Microservice</title>
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+</head>
+<body>
+	<h1>File Metadata Microservice</h1>
+	<form action="/file-data" method="post" enctype="multipart/form-data">
+		<fieldset>
+			<legend>File Data Check</legend>
+			<input type="text" name="extra">
+			<input type="file" name="doc">
+			<input type="submit">
+		</fieldset>
+	</form>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="javascripts/form.js"></script>
+</body>
+</html>

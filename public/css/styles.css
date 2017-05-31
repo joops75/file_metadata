@@ -1,0 +1,12 @@
+body {
+    background: url('https://meggin.com/wp-content/uploads/2012/07/graphic-files-folders-colorful.jpg');
+    background-size: 100%;
+    font-family: 'Play', sans-serif;
+    text-align: center;
+}
+
+form {
+    background: white;
+    margin-top: 20px;
+    padding-bottom: 8px;
+}
